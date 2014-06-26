@@ -1,0 +1,47 @@
+<DrctDbtTxInf>
+	<PmtId>
+		<EndToEndId>OriginatorID1234</EndToEndId>
+	</PmtId>
+	<InstdAmt Ccy="EUR">6543.14</InstdAmt>
+	<DrctDbtTx>
+		<MndtRltdInf>
+			<MndtId>Mandate-Id</MndtId>
+			<DtOfSgntr>2010-11-20</DtOfSgntr>
+			<AmdmntInd>true</AmdmntInd>
+			<AmdmntInfDtls>
+				<OrgnlCdtrSchmeId>
+					<Nm>Original Creditor Name</Nm>
+					<Id>
+						<PrvtId>
+							<Othr>
+								<Id>AA00ZZZOriginalCreditorID</Id>
+								<SchmeNm>
+									<Prtry>SEPA</Prtry>
+								</SchmeNm>
+							</Othr>
+						</PrvtId>
+					</Id>
+				</OrgnlCdtrSchmeId>
+			</AmdmntInfDtls>
+		</MndtRltdInf>
+	</DrctDbtTx>
+	<DbtrAgt>
+		<FinInstnId>
+			<BIC>SPUEDE2UXXX</BIC>
+		</FinInstnId>
+	</DbtrAgt>
+	<Dbtr>
+		<Nm>Debtor Name</Nm>
+	</Dbtr>
+	<DbtrAcct>
+		<Id>
+			<IBAN>DE21500500009876543210</IBAN>
+		</Id>
+	</DbtrAcct>
+	<UltmtDbtr>
+		<Nm>Ultimate Debtor Name</Nm>
+	</UltmtDbtr>
+	<RmtInf>
+		<Ustrd>Unstructured Remittance Information</Ustrd>
+	</RmtInf>
+</DrctDbtTxInf>

@@ -1,0 +1,19 @@
+{
+    "name": "frameworks/sepa",
+    "type": "package",
+    "description": "Sepa-Framework",
+    "homepage": "http://repo.dreiwerken.intern/frameworks/sepa",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@repo.dreiwerken.intern:frameworks/sepa.git"
+        }
+
+    ],
+    "require": {
+        "php" : ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
